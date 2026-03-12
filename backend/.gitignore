@@ -1,0 +1,4 @@
+backend/node_modules/
+testbank-automat/build/
+testbank-automat/.qtcreator/
+testbank-automat/*.user 
