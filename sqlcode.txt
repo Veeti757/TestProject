@@ -1,0 +1,2 @@
+CREATE USER peppiuser@'localhost' IDENTIFIED BY 'peppipass';
+GRANT ALL ON TestBank_db.* TO peppiuser@'localhost';
