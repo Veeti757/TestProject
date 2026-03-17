@@ -1,10 +1,10 @@
 const express = require('express');
-const dotenv = require('dotenv');
+//const dotenv = require('dotenv'); on jo app.js koodissa
 const jwt = require('jsonwebtoken');
 const student = require('../models/student_model');
 const bcrypt = require('bcryptjs');
 const router = express.Router();
-dotenv.config();
+//dotenv.config(); on jo app.js koodissa
 
 router.post('/',function(request, response){
     if(request.body.username && request.body.password){
