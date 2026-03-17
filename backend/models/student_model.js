@@ -26,6 +26,9 @@ const student = {
                 ],callback);
             }
         });
+    },
+    check_login: function(username, callback){
+        return db.query("SELECT password, role FROM student WHERE username = ?",[username],callback);
     }
 }
 
